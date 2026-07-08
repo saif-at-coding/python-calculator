@@ -31,10 +31,10 @@ python Calculator v2.0\main.py
 
 ## Project Structure
 
-main.py
-operations.py
-utils.py
-tests.py
+- main.py
+- operations.py
+- utils.py
+- tests.py
 
 ## Latest Version
 version 2.0
