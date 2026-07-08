@@ -32,12 +32,11 @@ def calculator():
                         calculation = f"{num1} - {num2} = {num1 - num2}"
                     elif choice in ["3", "*"]:
                         calculation = f"{num1} * {num2} = {num1 * num2}"
-                    elif choice in ["4", "/"]:
+                    else:
                         calculation = f"{num1}/{num2} = {num1/num2}"
 
                     print(f"\n{calculation}")
                     history.append(calculation)
-                    history_count += 1
 
                 except ZeroDivisionError:
                     print("Division by Zero is not allowed, User!")
@@ -55,7 +54,7 @@ def calculator():
                         continue
                     else:
                         calculation = f"Square root of {num} is {num ** 0.5}"
-                elif choice in ["8", "CBRT"]:
+                else:
                     if num >= 0:
                         calculation = f"Cube root of {num} = {num ** (1/3)}"
                     else:
@@ -65,7 +64,6 @@ def calculator():
 
                 print(f"\n{calculation}")
                 history.append(calculation)
-                history_count += 1
 
             elif choice in ["9", "Q"]:
                 print("\nCalculator closed by User.")
