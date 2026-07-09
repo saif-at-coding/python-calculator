@@ -1,4 +1,4 @@
-# Python Calculator v2.1
+# Python Calculator v2.2
 
 A beginner-friendly command-line calculator written in Python.
 
@@ -22,6 +22,10 @@ A beginner-friendly command-line calculator written in Python.
 - Inverse Sine
 - Inverse Cosine
 - Inverse Tangent
+- Logarithm (any base)
+- Logarithm (natural base)
+- Logarithm (base-10)
+- Logarithm (base-2)
 - Calculation History
 - Recent History
 - Input Validation
@@ -29,35 +33,36 @@ A beginner-friendly command-line calculator written in Python.
 
 ## Requirements
 
-Python 3.11+
+- Python 3.12+ (Recommended)
+- Python 3.6 (minimum)
 
 ## Run
 
-python Calculator v2.1\main.py
+python Calculator v2.2\main.py
 
 ## Test
 
-python Calculator v2.1\tests.py
+python Calculator v2.2\tests.py
 
 ## Project Structure
 
-Calculator v2.1/
+Calculator v2.2/
 - main.py
 - operations.py
 - utils.py
 - tests.py
+- WHATS-NEW.md
 
 ## Latest Version
-version 2.1
+version 2.2
 
-## What's New in v2.1
+## What's New in v2.2
 
-- Trigonometry operations
-- Inverse Trigonometry operations
-- Updated UI and unit tests
+- Logarithm operations
 
 ## Archive Versions
 
+- version 2.1
 - version 2.0
 - version 1.0
 
@@ -69,6 +74,6 @@ Md Saifuddin
 ## Future Plans
 
 - Save history to a file
-- Scientific functions
+- Scientific functions (currently working on)
 - GUI version
 - Memory register
