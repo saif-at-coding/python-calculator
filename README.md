@@ -4,30 +4,15 @@ A beginner-friendly command-line calculator written in Python.
 
 ## Features
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Square
-- Cube
-- Square Root
-- Cube Root
-- Power
+- Arithmetic (+, -, *, /)
+- Powers (Square, Cube, Roots, Exponents)
 - Percentage
 - Absolute Value
 - Random Integer Generator
-- Sine
-- Cosine
-- Tangent
-- Inverse Sine
-- Inverse Cosine
-- Inverse Tangent
-- Logarithm (any base)
-- Logarithm (natural base)
-- Logarithm (base-10)
-- Logarithm (base-2)
-- Calculation History
-- Recent History
+- Trigonometry (sin, cos, tan)
+- Inverse Trigonometry (arcsin, arccos, arctan)
+- Logarithm (any base, natural base, base-10, base-2)
+- Calculation History (Full, Recent)
 - Input Validation
 - Exception Handling
 
