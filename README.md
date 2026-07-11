@@ -1,4 +1,4 @@
-# Python Calculator v2.2
+# Python Calculator v2.3
 
 A beginner-friendly command-line calculator written in Python.
 
@@ -23,15 +23,15 @@ A beginner-friendly command-line calculator written in Python.
 
 ## Run
 
-python Calculator v2.2\main.py
+python Calculator v2.3\main.py
 
 ## Test
 
-python Calculator v2.2\tests.py
+python Calculator v2.3\tests.py
 
 ## Project Structure
 
-Calculator v2.2/
+Calculator v2.3/
 - main.py
 - operations.py
 - utils.py
@@ -39,14 +39,16 @@ Calculator v2.2/
 - WHATS-NEW.md
 
 ## Latest Version
-version 2.2
+version 2.3
 
-## What's New in v2.2
+## What's New in v2.3
 
-- Logarithm operations
+- Incorporated Dispatch Table
+- Improved Code Readability
 
 ## Archive Versions
 
+- version 2.2
 - version 2.1
 - version 2.0
 - version 1.0
