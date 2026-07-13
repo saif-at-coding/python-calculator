@@ -50,7 +50,7 @@ while True:
             if command in arithemtic_operations:
                 num1 = float(input("Enter the first number: "))
                 num2 = float(input("Enter the second number: "))
-                result = f"{num1}{command}{num2} = {commands[command](num1, num2)}"
+                result = f"{num1} {command} {num2} = {commands[command](num1, num2)}"
 
             elif command in trigonometry_operations:
                 angle = float(input("Enter the angle (in degrees): "))
@@ -82,8 +82,8 @@ while True:
                 result = f"log_{value}_{base} = {commands[command](value, base)}"
 
             elif command == "RAND":
-                minimum = float(input("Enter the minimum range: "))
-                maximum = float(input("Enter the maximum range: "))
+                minimum = int(input("Enter the minimum range: "))
+                maximum = int(input("Enter the maximum range: "))
                 result = f"Random: {commands[command](minimum, maximum)}"
 
             else:
