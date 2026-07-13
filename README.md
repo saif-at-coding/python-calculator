@@ -23,11 +23,11 @@ A beginner-friendly command-line calculator written in Python.
 
 ## Run
 
-python Calculator v2.3\main.py
+python "Calculator v2.3"\main.py
 
 ## Test
 
-python Calculator v2.3\tests.py
+python "Calculator v2.3"\tests.py
 
 ## Project Structure
 
