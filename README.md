@@ -1,4 +1,4 @@
-# Python Calculator v2.3
+# Python Calculator v2.4
 
 A beginner-friendly command-line calculator written in Python.
 
@@ -23,31 +23,38 @@ A beginner-friendly command-line calculator written in Python.
 
 ## Run
 
-python "Calculator v2.3"\main.py
+python "Calculator v2.4"\main.py
 
 ## Test
 
-python "Calculator v2.3"\tests.py
+python "Calculator v2.4"\tests.py
 
 ## Project Structure
 
-Calculator v2.3/
+Calculator v2.4/
 - main.py
 - operations.py
 - utils.py
+- commands.py
 - tests.py
 - WHATS-NEW.md
 
 ## Latest Version
-version 2.3
+Version 2.4
 
-## What's New in v2.3
+## What's New in v2.4
 
-- Incorporated Dispatch Table
-- Improved Code Readability
+- Refactored command handling into a separate `commands.py` module.
+- Simplified `main.py` by moving operation logic out of it.
+- Reworked the history system to use a dedicated `History` class.
+- Improved negative-base exponent handling in `power()`.
+- Added a comprehensive test suite.
+
+See `tests.py` for all current tests.
 
 ## Archive Versions
 
+- version 2.3
 - version 2.2
 - version 2.1
 - version 2.0
